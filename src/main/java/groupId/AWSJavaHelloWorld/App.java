@@ -33,7 +33,7 @@ public class App
     public static void createAndPopulateSimpleBucket() throws Exception {
 
 
-        BasicAWSCredentials awsCreds = new BasicAWSCredentials("AKIASWKIVLX7UUMKQJWK", "XF3E2eHagznpccVhVwZQlEGGZCZV+eM948x2oYnU");
+        BasicAWSCredentials awsCreds = new BasicAWSCredentials("", "");
 
         AmazonS3Client s3Client = new AmazonS3Client(awsCreds);
 
